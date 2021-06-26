@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Learn D3.js</title>
+    </head>
+    <body>
+        <h1>Here's a Line Chart of Bitcoin Prices using D3.js</h1>
+
+        <svg> class="line-chart"</svg>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+    <footer>Powered by <a href="https://www.coindesk.com/price/bitcoin">Coindesk</a></footer>
+    <footer>Starter code began with example from 
+        <a href="https://scrimba.com/learn/d3js">this course</a> 
+        by <a href="https://github.com/sohaibnehal">Sohaib Nehal</a>. </footer>
+    <footer>I only see two streams on Coindesk's API: 
+        <a href="https://api.coindesk.com/v1/bpi/historical/close.json">Historical Prices</a>
+        and
+        <a href="https://api.coindesk.com/v1/bpi/currentprice.json">Current Price</a>. <br>
+        Historical Prices default to past 30 days, 
+        but a different period can be passed in a URL query string.
+    </footer>
+</html>
